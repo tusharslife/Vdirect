@@ -1,0 +1,514 @@
+body{
+  background-color: black;
+}
+
+/* /-------- Navbar CSS -------------/ */
+.img-logo{
+  margin-left: 15px;
+  height: 35px;
+  text-shadow: white 2px;
+}
+.navbar-brand img{
+  height: 50px;
+}
+
+.navbar-brand p{
+  color: #1a75d9;
+  font-size: 25px;
+}
+
+.carousel-inner{
+  height: 600px;
+}
+
+.sbtn{
+  background-color: #1a75d9;
+}
+
+.sbtn i{
+  color: white;
+}
+
+.sbtn .bi-person-circle{
+  padding-right: 15px;
+}
+
+
+/* /------------payment------------/ */
+
+/* .container{
+  color: red;
+  height: 570px;
+  width: 1870px;
+} */
+
+* {
+box-sizing: border-box;
+}
+
+.columns {
+float: left;
+width: 25.3%;
+padding: 18px;
+margin: 40px;
+}
+
+.price {
+list-style-type: none;
+border: 1px solid #eee;
+margin: 0;
+padding: 0;
+-webkit-transition: 0.3s;
+transition: 0.3s;
+}
+
+.price:hover {
+box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.267)
+}
+
+.price .header {
+background-color: rgb(197, 21, 21);
+color: white;
+font-size: 25px;
+}
+
+.price li {
+border-bottom: 1px solid #eee;
+padding: 20px;
+text-align: center;
+}
+
+.price .grey {
+background-color: #eee;
+font-size: 20px;
+}
+
+.button{
+background-color: #aa0404;
+border: none;
+color: white;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+font-size: 18px;
+border-radius: 30px;
+}
+
+.button a{
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+.columns {
+  width: 100%;
+}
+}
+
+
+/* MOvie Time -HOme */
+
+.part1,
+.part2,
+.part3,
+.part4{
+  background-color: black;
+}
+
+/* /----------------------------part1----------------------------------------/ */
+.part1{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 4rem;
+  border-bottom: 0.6rem solid #111;
+}
+
+.part1 .talk{
+  width: auto;
+}
+
+.part1 .talk h1{
+  font-size: 3.3rem;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.part1 .talk p{
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.part1 .img{
+  width: 45%;
+}
+.part1 .img img{
+  width: 100%;
+}
+/* /----------------------------part2----------------------------------------/ */
+.part2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 4rem;
+  border-bottom: 0.6rem solid #111;
+}
+
+.part2 .talk{
+  width: auto;
+}
+
+.part2 .talk h1{
+  font-size: 3.3rem;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.part2 .talk p{
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.part2 .img{
+  width: 45%;
+}
+.part2 .img img{
+  width: 100%;
+}
+/* /----------------------------part3----------------------------------------/ */
+.part3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 4rem;
+  border-bottom: 0.6rem solid #111;
+}
+
+.part3 .talk{
+  width: auto;
+}
+
+.part3 .talk h1{
+  font-size: 3.3rem;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.part3 .talk p{
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.part3 .img{
+  width: 45%;
+}
+.part3 .img img{
+  width: 100%;
+}
+
+/* /----------------------------part4----------------------------------------/ */
+.part4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 4rem;
+  border-bottom: 0.6rem solid #111;
+}
+
+.part4 .talk{
+  width: auto;
+}
+
+.part4 .talk h1{
+  font-size: 3.3rem;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.part4 .talk p{
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.part4 .img{
+  width: 45%;
+}
+.part4 .img img{
+  width: 100%;
+}
+
+
+/*-------------------- Footer------------------------ */
+.footer ,
+.footer a{
+  color: #999999;
+  font-size: 0.9rem;
+}
+
+.footer p{
+  margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols{
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  grid-gap: 2rem;
+}
+
+.footer li{
+  line-height: 2.4;
+  text-emphasis: none;
+}
+
+/* /----------------------------- Payment page-----------------------------/ */
+
+.paylogo{
+  margin-left: 400px;
+}
+a .nav-link{
+  color: white;
+}
+
+.pdetail{
+margin-top: 50px;
+}
+
+.pdetail h2 .bi{
+color: rgb(25, 0, 255);
+}
+
+
+
+/* /----------------------------- Tvshow page-----------------------------/ */
+
+.card{
+  width: 15rem;
+  border: black 2px;
+  margin: 15px 0px 10px 10px;
+}
+
+.card-img-top{
+  height: 350px;
+  width: 50px;
+}
+
+.card-container{
+  display: flex;
+}
+
+.mb-3{
+box-shadow:2px 0px rgba(12, 12, 12, 0.438);
+}
+
+.mcard .btn{
+width: 150px;
+}
+
+/* /----------------------------- mpay page-----------------------------/ */
+.row {
+  color: black;
+  display: -ms-flexbox;
+  display:block;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+#mpay-bill{
+  margin-top: 15px;
+}
+
+.mpaycon{
+  box-shadow: #999999 5px 3px;
+}
+
+.col-25 {
+  -ms-flex: 25%;
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%;
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%;
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+
+.mpaycon {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.ico {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+
+.mbtn{
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.mbtn:hover {
+  background-color: #45a049;
+}
+
+.sam{
+  margin-top: 15px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+/* /-----------------------------  paytm spay page-----------------------------/ */
+.spay{
+margin-left: 700px;
+margin-top: 50px;
+}
+
+.svi{
+width: 150px;
+height: 150px;
+}
+
+.msg{
+text-align: center;
+}
+
+.bhome{
+margin-left: 700px;
+margin-top: 50px;
+}
+
+/* /-----------------------------  paytm spay page-----------------------------/ */
+
+
+
+
+
+
+/* /-----------footer---------/ */
+.links{
+  text-align: left;
+}
+
+.list-unstyled a{
+  text-decoration: none;
+}
+
+.text-center a{
+  text-decoration: none;
+}
+
+.partners{
+  background-color:whitesmoke;
+  color: red;
+}
+
+.partners h2{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.foot .pt-2{
+  color: white;
+}
+
+.copy .p-3{
+  margin-right: 250px;
+}
+
+
+
+/* Scroll to top*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #29508d;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+  }
+
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+  /* loading */
+  #loading {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    background-color: rgb(255, 255, 255);
+    z-index: 99;
+  }
+
+  #loading-image {
+    z-index: 100;
+  }
