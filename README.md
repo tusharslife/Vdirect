@@ -4,7 +4,7 @@ This project is build in PHP using Laravel framework. To entertain users by vide
 1. Uploading/Download
 2. Email Alert
 3. Three user system
-4. Live/draft
+4. Live/Draft
 5. Feedback
 6. Reset password via email
 7. Profile
