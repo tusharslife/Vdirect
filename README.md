@@ -1,7 +1,7 @@
 # Vdirect - Video Streaming Service
 This project is built in PHP using Laravel framework. To entertain users by videos on demand.
 #### Features
-1. Uploading/Download
+1. Upload/Download Video
 2. Email Alert
 3. Three user system
 4. Live/Draft
